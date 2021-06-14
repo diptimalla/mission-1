@@ -25,9 +25,6 @@ border-radius: 6px;
 cursor: pointer;
  }
 
- }
- 
-
  .container{
      width: 100%;
      margin: 0 auto;
@@ -158,7 +155,66 @@ transform: skewY(-5deg);
      width:120%;
  }
 
- 
+ /* email*/
+ .email__id{
+     position: center;
+     justify-content: center;
+ }
+ .email__descrip{
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px 30px;
+    text-align: center;
+    margin-top: 20px;
+ }
+ .email__{
+     position: center;
+     background-color: #fff;
+     border-color: #ff512f;
+     border-radius: 5px;
+     align-items: center;
+     padding: 5px;
+ }
+.button__updates{
+    background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+);
+color: #fff;
+padding: 8px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+margin-top: 5px;
+
+}
+.updates__button{
+    text-align: center;
+}
+ /* footer */
+.zom__logo{
+    height: 50px;
+    width: 150px;
+}
+.footer{
+    background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+);
+color: #fff;
+padding: 8px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+margin-top: 15px;
+text-align: center;
+ }
+
+
 
  @media (min-width: 768px){
      .navbar{
@@ -243,6 +299,13 @@ transform: skewY(-5deg);
     }
     .restaurant__container{
         margin-top: 30px;
+    }
+    .email__descrip{
+    font-size: 50px;
+    color: #1d3557;
+    margin: 20px 30px;
+    text-align: center;
+    margin-top: 20px;
     }
 
 }
